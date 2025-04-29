@@ -1,0 +1,139 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Layout */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  /* Gallery Section */
+  .car-gallery {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .car-display {
+    position: relative;
+  }
+  
+  .car-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Car Model Section */
+  .car-models {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .accordionButton {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 1rem;
+    text-align: left;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordionButton:hover {
+    background-color: #ccc;
+  }
+  
+  .accordionContent {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-left: 3px solid #4CAF50;
+    border-radius: 5px;
+  }
+  
+  /* Form Section */
+  .inquiry-form {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

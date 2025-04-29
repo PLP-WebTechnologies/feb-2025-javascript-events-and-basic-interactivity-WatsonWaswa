@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Sales Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Speedster Cars</h1>
+    <p>Your dream car is just a click away</p>
+  </header>
+
+  <section class="car-gallery">
+    <h2>Featured Cars</h2>
+    <div class="car-display">
+      <img id="carImage" src="assets/gta-6-3840x2160-fan-art-muscle-car-4k-24969.jpeg" alt="Car Model" class="car-img">
+      <button id="nextCarButton">Next Car</button>
+    </div>
+  </section>
+
+  <section class="car-models">
+    <h2>Select Your Car Model</h2>
+    <div class="accordion">
+      <button class="accordionButton">Model A</button>
+      <div class="accordionContent">
+        <p>Fast and reliable. Comes with a 5-year warranty!</p>
+      </div>
+
+      <button class="accordionButton">Model B</button>
+      <div class="accordionContent">
+        <p>Luxury car with all the bells and whistles. Ideal for long drives.</p>
+      </div>
+
+      <button class="accordionButton">Model C</button>
+      <div class="accordionContent">
+        <p>Eco-friendly with great fuel efficiency. Perfect for city driving.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="inquiry-form">
+    <h2>Get More Information</h2>
+    <form id="inquiryForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Submit Inquiry</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
